@@ -1,0 +1,197 @@
+/** Full page containers **/
+html, body, div.root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+div.data-reactroot, div.chat-container {
+  width: inherit;
+  height: inherit;
+}
+div.chat-container {
+  border-bottom-style: solid;
+  border-width: thin;
+}
+/*************************/
+
+/* Login and Create Account css */
+div.loginpage-bg {
+  padding: 15px;
+  background-color: #93F3E9;
+  width: 60%;
+  margin-top: 8%;
+  margin-left: 20%;
+  border-radius: 20px;
+}
+div.login-form {
+  margin: 2% 25%;
+  width: 60%;
+}
+div.login-form form {
+  text-align: left;
+}
+div.login-form form input{
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+span.loginpage-links {
+  margin-left: 55%;
+}
+span.login-createAccount-submit {
+  color: red;
+}
+span.login-createAccount-submit button {
+  margin-right: 10px;
+}
+a {
+  padding: 10px;
+}
+a:hover {
+  font-size: 15px;
+  text-decoration: none;
+}
+/*****************************/
+
+/** Chat Container Header ****/
+div.chatroom-header {
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  height: 12%;
+  background-color: #78CEF0;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+}
+div.chat-header-area {
+  height: 100%;
+  width: 100%;
+}
+div.chat-header-left {
+  float: left;
+  height: 100%;
+  width: 75%;
+}
+div.chat-header-left h1 {
+  cursor: pointer;
+}
+div.chat-header-right {
+  float: left;
+  text-align: right;
+  height: 100%;
+  width: 25%;
+  padding-right: 20px;
+}
+div.chat-header-right img {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+div.chat-header-right img:hover {
+  cursor: pointer;
+}
+
+/**** Header Popovers ********/
+.account-popover {
+  height: inherit;
+  width: inherit;
+  text-align: center;
+  background-color: #F1F5F5;
+}
+.account-popover button {
+  margin: 5px;
+}
+/*****************************/
+
+/*****************************/
+
+/** Leftside of Chat Container **/
+div.left-container {
+  float: left;
+  width: 15%;
+  height: 88%;
+  border-right-style: solid;
+  border-width: 1px;
+  overflow: auto;
+}
+table.friends-list-container {
+  width: 100%;
+}
+tr.friend-list-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+th {
+  color: #1B474F;
+  font-size: 24px;
+  font-weight: 200;
+}
+tr.friend-name-row {
+  cursor: pointer;
+}
+td.friends-list-cell, th {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-top: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+/***************************/
+
+/** Middle section of Chat Container **/
+div.middle-container {
+  float: left;
+  width: 60%;
+  height: 88%;
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+div.message-list-container {
+  width: 100%;
+  height: 90%;
+}
+td.message {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+form.message-sender-container {
+  width: 100%;
+  height: 10%;
+}
+#message-input {
+  height: 100%;
+  width: 87%;
+}
+#message-input:focus {
+  outline-width: thin;
+}
+#message-send {
+  height: 100%;
+  width: 13%;
+}
+/****************************/
+
+/** Right section of Chat Container **/
+div.right-container {
+  float: left;
+  width: 25%;
+  height: 88%;
+}
+div.detail-container {
+  padding-top: 20%;
+  text-align: center;
+}
+div.detail-container h1 {
+  font-weight: 400;
+}
+div.detail-container h2, h3, h4 {
+  font-weight: 200;
+}
+div.detail-container h4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/**************************************/
